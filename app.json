@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "FoodMarket",
-    "slug": "FoodMarket",
+    "name": "Food Market",
+    "slug": "food-market",
+    "description": "This is a Food Market for purchasing your daily groceries",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -24,13 +25,27 @@
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/adaptive-icon.png"
     },
     "plugins": [
       "expo-router"
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "9a471845-8076-4dc8-aae8-22c0d3de14ba"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/9a471845-8076-4dc8-aae8-22c0d3de14ba"
     }
   }
 }
