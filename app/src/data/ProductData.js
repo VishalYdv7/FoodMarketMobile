@@ -1,0 +1,133 @@
+const products = [
+  {
+    id: '1',
+    name: 'Margherita Pizza',
+    price: '$12.99',
+    description: 'A simple and classic pizza with fresh tomatoes, mozzarella, and basil, baked to perfection.',
+    image: require('../../../assets/images/margherita_pizza.jpg'),
+  },
+  {
+    id: '2',
+    name: 'Cheeseburger',
+    price: '$8.99',
+    description: 'A juicy cheeseburger with melted cheddar cheese, lettuce, tomato, and a toasted bun.',
+    image: require('../../../assets/images/cheeseburger.jpg'),
+  },
+  {
+    id: '3',
+    name: 'Spaghetti Carbonara',
+    price: '$15.99',
+    description: 'Classic Italian pasta with creamy sauce, crispy bacon, and parmesan cheese.',
+    image: require('../../../assets/images/spaghetti_carbonara.jpg'),
+  },
+  {
+    id: '4',
+    name: 'Sushi Platter',
+    price: '$20.99',
+    description: 'A variety of fresh sushi rolls, including tuna, salmon, and avocado.',
+    image: require('../../../assets/images/sushi_platter.jpg'),
+  },
+  {
+    id: '5',
+    name: 'Pad Thai',
+    price: '$10.99',
+    description: 'A flavorful Thai dish with stir-fried rice noodles, tofu, peanuts, and lime.',
+    image: require('../../../assets/images/pad_thai.jpg'),
+  },
+  {
+    id: '6',
+    name: 'Greek Salad',
+    price: '$6.99',
+    description: 'A refreshing salad with cucumbers, tomatoes, olives, feta cheese, and olive oil dressing.',
+    image: require('../../../assets/images/greek_salad.jpg'),
+  },
+  {
+    id: '7',
+    name: 'Tiramisu',
+    price: '$6.99',
+    description: 'A delicious Italian dessert made with coffee-soaked ladyfingers and mascarpone cream.',
+    image: require('../../../assets/images/tiramisu.jpg'),
+  },
+  {
+    id: '8',
+    name: 'Falafel Wrap',
+    price: '$7.99',
+    description: 'A flavorful wrap filled with crispy falafel, fresh veggies, and tahini sauce.',
+    image: require('../../../assets/images/falafel_wrap.jpg'),
+  },
+  {
+    id: '9',
+    name: 'Penne Arrabbiata',
+    price: '$11.99',
+    description: 'Spicy Italian pasta with penne and a tangy tomato sauce with chili peppers.',
+    image: require('../../../assets/images/penne_arrabbiata.jpg'),
+  },
+  {
+    id: '10',
+    name: 'Veggie Burrito',
+    price: '$8.99',
+    description: 'A hearty burrito stuffed with beans, rice, cheese, and fresh vegetables.',
+    image: require('../../../assets/images/veggie_burrito.jpg'),
+  },
+  {
+    id: '11',
+    name: 'Chocolate Cake',
+    price: '$5.99',
+    description: 'A rich and moist chocolate cake topped with silky chocolate ganache.',
+    image: require('../../../assets/images/chocolate_cake.jpg'),
+  },
+  {
+    id: '12',
+    name: 'Red Velvet Cake',
+    price: '$7.99',
+    description: 'A moist and decadent red velvet cake topped with smooth cream cheese frosting.',
+    image: require('../../../assets/images/red_velvet_cake.jpg'),
+  },
+
+  // Cold Drinks
+  {
+    id: '13',
+    name: 'Coca-Cola',
+    price: '$2.99',
+    description: 'A classic refreshing soda with a unique taste, best served chilled.',
+    image: require('../../../assets/images/coca_cola.jpg'),
+  },
+  {
+    id: '14',
+    name: 'Lemonade',
+    price: '$3.99',
+    description: 'A tangy and sweet lemonade made with fresh lemons and a touch of sugar.',
+    image: require('../../../assets/images/lemonade.jpg'),
+  },
+  {
+    id: '15',
+    name: 'Iced Coffee',
+    price: '$4.99',
+    description: 'A smooth and chilled coffee, brewed cold for a refreshing kick of caffeine.',
+    image: require('../../../assets/images/iced_coffee.jpg'),
+  },
+  //Ice Creams
+  {
+    id: '16',
+    name: 'Strawberry Ice Cream',
+    price: '$3.99',
+    description: 'Creamy strawberry ice cream made with real strawberries for a burst of flavor.',
+    image: require('../../../assets/images/strawberry_ice_cream.jpg'),
+  },
+  {
+    id: '17',
+    name: 'Mint Chocolate Chip Ice Cream',
+    price: '$3.99',
+    description: 'Mint-flavored ice cream with rich chocolate chips for a refreshing dessert.',
+    image: require('../../../assets/images/mint_chocolate_ice_cream.jpg'),
+  },
+  {
+    id: '18',
+    name: 'Mango Sorbet',
+    price: '$4.99',
+    description: 'A tropical sorbet made with ripe mangoes, offering a cool, fruity burst of flavor.',
+    image: require('../../../assets/images/mango_sorbet.jpg'),
+  },
+  ];
+
+export default products;
